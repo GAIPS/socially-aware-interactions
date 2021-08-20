@@ -1,0 +1,1568 @@
+{
+  "passages": [
+    {
+      "text": "[[Nice to meet you, where is Dr. Emma?]] ",
+      "links": [
+        {
+          "name": "Nice to meet you, where is Dr. Emma?",
+          "link": "Nice to meet you, where is Dr. Emma?",
+          "pid": "2"
+        }
+      ],
+      "name": "I'm Dr. Rue!",
+      "pid": "1",
+      "position": {
+        "x": "37",
+        "y": "140"
+      },
+      "tags": [
+        "introduction",
+        "doctor"
+      ]
+    },
+    {
+      "text": "[[Dr. Emma is out of town, but you don't have to worry. I have access to your medical history!]] \n[[I'm not sure... Do you have a problem in having me as a doctor?]] ",
+      "links": [
+        {
+          "name": "Dr. Emma is out of town, but you don't have to worry. I have access to your medical history!",
+          "link": "Dr. Emma is out of town, but you don't have to worry. I have access to your medical history!",
+          "pid": "3"
+        },
+        {
+          "name": "I'm not sure... Do you have a problem in having me as a doctor?",
+          "link": "I'm not sure... Do you have a problem in having me as a doctor?",
+          "pid": "20"
+        }
+      ],
+      "name": "Nice to meet you, where is Dr. Emma?",
+      "pid": "2",
+      "position": {
+        "x": "40",
+        "y": "258"
+      },
+      "tags": [
+        "patient",
+        "introduction"
+      ]
+    },
+    {
+      "text": "[[Ah! Okay, okay, I trust you!]] ",
+      "links": [
+        {
+          "name": "Ah! Okay, okay, I trust you!",
+          "link": "Ah! Okay, okay, I trust you!",
+          "pid": "9"
+        }
+      ],
+      "name": "Dr. Emma is out of town, but you don't have to worry. I have access to your medical history!",
+      "pid": "3",
+      "position": {
+        "x": "42",
+        "y": "380"
+      },
+      "tags": [
+        "introduction",
+        "doctor"
+      ]
+    },
+    {
+      "text": "[[My head is killing meee!]] ",
+      "links": [
+        {
+          "name": "My head is killing meee!",
+          "link": "My head is killing meee!",
+          "pid": "5"
+        }
+      ],
+      "name": "So, how can I help you?",
+      "pid": "4",
+      "position": {
+        "x": "345",
+        "y": "674"
+      },
+      "tags": [
+        "askSymptoms",
+        "doctor"
+      ]
+    },
+    {
+      "text": "",
+      "name": "My head is killing meee!",
+      "pid": "5",
+      "position": {
+        "x": "485",
+        "y": "675"
+      },
+      "tags": [
+        "askSymptoms",
+        "patient"
+      ]
+    },
+    {
+      "text": "[[No, no. Only an headache.]] \n[[Yes, 38.5 degrees.]] ",
+      "links": [
+        {
+          "name": "No, no. Only an headache.",
+          "link": "No, no. Only an headache.",
+          "pid": "8"
+        },
+        {
+          "name": "Yes, 38.5 degrees.",
+          "link": "Yes, 38.5 degrees.",
+          "pid": "7"
+        }
+      ],
+      "name": "Do you have a fever?",
+      "pid": "6",
+      "position": {
+        "x": "431",
+        "y": "940"
+      },
+      "tags": [
+        "askFever",
+        "doctor"
+      ]
+    },
+    {
+      "text": "{{addKnowledge}}\nfever\n{{/addKnowledge}}\n\n[[Oh that's too bad. I'm so sorry you feel that way]] ",
+      "links": [
+        {
+          "name": "Oh that's too bad. I'm so sorry you feel that way",
+          "link": "Oh that's too bad. I'm so sorry you feel that way",
+          "pid": "45"
+        }
+      ],
+      "props": {
+        "addKnowledge": "fever"
+      },
+      "name": "Yes, 38.5 degrees.",
+      "pid": "7",
+      "position": {
+        "x": "434",
+        "y": "1072"
+      },
+      "tags": [
+        "askFever",
+        "patient"
+      ]
+    },
+    {
+      "text": "",
+      "name": "No, no. Only an headache.",
+      "pid": "8",
+      "position": {
+        "x": "568",
+        "y": "935"
+      },
+      "tags": [
+        "askFever",
+        "patient"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Ah! Okay, okay, I trust you!",
+      "pid": "9",
+      "position": {
+        "x": "44",
+        "y": "501"
+      },
+      "tags": [
+        "introduction",
+        "patient"
+      ]
+    },
+    {
+      "text": "{{user}}doctor{{/user}}\n{{agent}}patient{{/agent}}",
+      "props": {
+        "user": "doctor",
+        "agent": "patient"
+      },
+      "name": "Roles",
+      "pid": "10",
+      "position": {
+        "x": "1846",
+        "y": "31"
+      },
+      "tags": [
+        "roles"
+      ]
+    },
+    {
+      "text": "[[Not so good. I'm feeling warm...]] ",
+      "links": [
+        {
+          "name": "Not so good. I'm feeling warm...",
+          "link": "Not so good. I'm feeling warm...",
+          "pid": "12"
+        }
+      ],
+      "name": "How are you feeling?",
+      "pid": "11",
+      "position": {
+        "x": "341",
+        "y": "804"
+      },
+      "tags": [
+        "askSymptoms",
+        "doctor"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Not so good. I'm feeling warm...",
+      "pid": "12",
+      "position": {
+        "x": "491",
+        "y": "802"
+      },
+      "tags": [
+        "askSymptoms",
+        "patient"
+      ]
+    },
+    {
+      "text": "[[Yes! For three days already!]] \n[[No, I don't have a cough.]] ",
+      "links": [
+        {
+          "name": "Yes! For three days already!",
+          "link": "Yes! For three days already!",
+          "pid": "14"
+        },
+        {
+          "name": "No, I don't have a cough.",
+          "link": "No, I don't have a cough.",
+          "pid": "17"
+        }
+      ],
+      "name": "Have you been having a cough?",
+      "pid": "13",
+      "position": {
+        "x": "186",
+        "y": "783"
+      },
+      "tags": [
+        "askCough",
+        "doctor",
+        "fever"
+      ]
+    },
+    {
+      "text": "{{addKnowledge}}\ncough\n{{/addKnowledge}}\n\n[[Everything is going to be okay. I'm here to help you.]] ",
+      "links": [
+        {
+          "name": "Everything is going to be okay. I'm here to help you.",
+          "link": "Everything is going to be okay. I'm here to help you.",
+          "pid": "50"
+        }
+      ],
+      "props": {
+        "addKnowledge": "cough"
+      },
+      "name": "Yes! For three days already!",
+      "pid": "14",
+      "position": {
+        "x": "178",
+        "y": "906"
+      },
+      "tags": [
+        "patient",
+        "askCough"
+      ]
+    },
+    {
+      "text": "[[An intern? I would prefer a real doctor...]]\n",
+      "links": [
+        {
+          "name": "An intern? I would prefer a real doctor...",
+          "link": "An intern? I would prefer a real doctor...",
+          "pid": "16"
+        }
+      ],
+      "name": "I'm an intern.",
+      "pid": "15",
+      "position": {
+        "x": "306",
+        "y": "140"
+      },
+      "tags": [
+        "doctor",
+        "introduction"
+      ]
+    },
+    {
+      "text": "[[That's not my decision to make.]]\n[[Don't worry! I'm one of the best interns here!]] ",
+      "links": [
+        {
+          "name": "That's not my decision to make.",
+          "link": "That's not my decision to make.",
+          "pid": "19"
+        },
+        {
+          "name": "Don't worry! I'm one of the best interns here!",
+          "link": "Don't worry! I'm one of the best interns here!",
+          "pid": "24"
+        }
+      ],
+      "name": "An intern? I would prefer a real doctor...",
+      "pid": "16",
+      "position": {
+        "x": "305",
+        "y": "262"
+      },
+      "tags": [
+        "patient",
+        "introduction"
+      ]
+    },
+    {
+      "text": "",
+      "name": "No, I don't have a cough.",
+      "pid": "17",
+      "position": {
+        "x": "305",
+        "y": "991"
+      },
+      "tags": [
+        "askCough",
+        "patient"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Good morning.",
+      "pid": "18",
+      "position": {
+        "x": "34",
+        "y": "20"
+      },
+      "tags": [
+        "greeting",
+        "formal"
+      ]
+    },
+    {
+      "text": "[[Okay. You don't have to be rude about it.]] ",
+      "links": [
+        {
+          "name": "Okay. You don't have to be rude about it.",
+          "link": "Okay. You don't have to be rude about it.",
+          "pid": "23"
+        }
+      ],
+      "name": "That's not my decision to make.",
+      "pid": "19",
+      "position": {
+        "x": "304",
+        "y": "384"
+      },
+      "tags": [
+        "introduction",
+        "doctor"
+      ]
+    },
+    {
+      "text": "[[No, no, I was just curious...]] ",
+      "links": [
+        {
+          "name": "No, no, I was just curious...",
+          "link": "No, no, I was just curious...",
+          "pid": "22"
+        }
+      ],
+      "name": "I'm not sure... Do you have a problem in having me as a doctor?",
+      "pid": "20",
+      "position": {
+        "x": "162",
+        "y": "258"
+      },
+      "tags": [
+        "doctor",
+        "introduction"
+      ]
+    },
+    {
+      "text": "[[I'm Yvette Beehive, I was born on 05/11/1978.]]\n[[I'm Jeff, I was born 73 years ago on a sunny day of summer.]] ",
+      "links": [
+        {
+          "name": "I'm Yvette Beehive, I was born on 05/11/1978.",
+          "link": "I'm Yvette Beehive, I was born on 05/11/1978.",
+          "pid": "26"
+        },
+        {
+          "name": "I'm Jeff, I was born 73 years ago on a sunny day of summer.",
+          "link": "I'm Jeff, I was born 73 years ago on a sunny day of summer.",
+          "pid": "43"
+        }
+      ],
+      "name": "Before we move on to what is bothering you, could you tell me your name and date of birth, please?",
+      "pid": "21",
+      "position": {
+        "x": "47",
+        "y": "630"
+      },
+      "tags": [
+        "gatherInfo",
+        "doctor"
+      ]
+    },
+    {
+      "text": "",
+      "name": "No, no, I was just curious...",
+      "pid": "22",
+      "position": {
+        "x": "161",
+        "y": "380"
+      },
+      "tags": [
+        "patient",
+        "introduction"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Okay. You don't have to be rude about it.",
+      "pid": "23",
+      "position": {
+        "x": "300",
+        "y": "511"
+      },
+      "tags": [
+        "patient",
+        "introduction"
+      ]
+    },
+    {
+      "text": "[[I'm glad!]] ",
+      "links": [
+        {
+          "name": "I'm glad!",
+          "link": "I'm glad!",
+          "pid": "25"
+        }
+      ],
+      "name": "Don't worry! I'm one of the best interns here!",
+      "pid": "24",
+      "position": {
+        "x": "438",
+        "y": "268"
+      },
+      "tags": [
+        "introduction",
+        "doctor"
+      ]
+    },
+    {
+      "text": "",
+      "name": "I'm glad!",
+      "pid": "25",
+      "position": {
+        "x": "437",
+        "y": "383"
+      },
+      "tags": [
+        "introduction",
+        "patient"
+      ]
+    },
+    {
+      "text": "",
+      "name": "I'm Yvette Beehive, I was born on 05/11/1978.",
+      "pid": "26",
+      "position": {
+        "x": "40",
+        "y": "754"
+      },
+      "tags": [
+        "gatherInfo",
+        "patient"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Hello.",
+      "pid": "27",
+      "position": {
+        "x": "142",
+        "y": "20"
+      },
+      "tags": [
+        "greeting",
+        "formal"
+      ]
+    },
+    {
+      "text": "[[Introduction 2]] ",
+      "links": [
+        {
+          "name": "Introduction 2",
+          "link": "Introduction 2",
+          "pid": "32"
+        }
+      ],
+      "name": "Greeting Friendly",
+      "pid": "28",
+      "position": {
+        "x": "1249",
+        "y": "29"
+      },
+      "tags": [
+        "greeting",
+        "frame",
+        "friendly"
+      ]
+    },
+    {
+      "text": " ",
+      "name": "Hi!",
+      "pid": "29",
+      "position": {
+        "x": "249",
+        "y": "19"
+      },
+      "tags": [
+        "greeting",
+        "friendly"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Bye!",
+      "pid": "30",
+      "position": {
+        "x": "467",
+        "y": "20"
+      },
+      "tags": [
+        "goodbye",
+        "friendly"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Goodbye.",
+      "pid": "31",
+      "position": {
+        "x": "360",
+        "y": "19"
+      },
+      "tags": [
+        "goodbye",
+        "formal"
+      ]
+    },
+    {
+      "text": "[[Gather Info]] \n",
+      "links": [
+        {
+          "name": "Gather Info",
+          "link": "Gather Info",
+          "pid": "41"
+        }
+      ],
+      "name": "Introduction 2",
+      "pid": "32",
+      "position": {
+        "x": "1247",
+        "y": "195"
+      },
+      "tags": [
+        "introduction",
+        "frame"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Goodbye Friendly",
+      "pid": "33",
+      "position": {
+        "x": "1255",
+        "y": "613"
+      },
+      "tags": [
+        "goodbye",
+        "friendly",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Introduction 1]] ",
+      "links": [
+        {
+          "name": "Introduction 1",
+          "link": "Introduction 1",
+          "pid": "36"
+        }
+      ],
+      "name": "Greeting Formal",
+      "pid": "34",
+      "position": {
+        "x": "1088",
+        "y": "33"
+      },
+      "tags": [
+        "frame",
+        "greeting",
+        "formal"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Goodbye Formal",
+      "pid": "35",
+      "position": {
+        "x": "1109",
+        "y": "952"
+      },
+      "tags": [
+        "goodbye",
+        "formal",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Ask Symptoms 1]] ",
+      "links": [
+        {
+          "name": "Ask Symptoms 1",
+          "link": "Ask Symptoms 1",
+          "pid": "44"
+        }
+      ],
+      "name": "Introduction 1",
+      "pid": "36",
+      "position": {
+        "x": "1088",
+        "y": "170"
+      },
+      "tags": [
+        "introduction",
+        "frame"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Goodbye Friendly 1",
+      "pid": "37",
+      "position": {
+        "x": "952",
+        "y": "965"
+      },
+      "tags": [
+        "goodbye",
+        "friendly",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Introduction 3]] ",
+      "links": [
+        {
+          "name": "Introduction 3",
+          "link": "Introduction 3",
+          "pid": "39"
+        }
+      ],
+      "name": "Greeting Friendly 2",
+      "pid": "38",
+      "position": {
+        "x": "946",
+        "y": "34"
+      },
+      "tags": [
+        "greeting",
+        "friendly",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Gather Info 1]] ",
+      "links": [
+        {
+          "name": "Gather Info 1",
+          "link": "Gather Info 1",
+          "pid": "40"
+        }
+      ],
+      "name": "Introduction 3",
+      "pid": "39",
+      "position": {
+        "x": "948",
+        "y": "171"
+      },
+      "tags": [
+        "frame",
+        "introduction"
+      ]
+    },
+    {
+      "text": "[[Ask Symptoms]] ",
+      "links": [
+        {
+          "name": "Ask Symptoms",
+          "link": "Ask Symptoms",
+          "pid": "42"
+        }
+      ],
+      "name": "Gather Info 1",
+      "pid": "40",
+      "position": {
+        "x": "952",
+        "y": "308"
+      },
+      "tags": [
+        "gatherInfo",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Diagnosis 2]] ",
+      "links": [
+        {
+          "name": "Diagnosis 2",
+          "link": "Diagnosis 2",
+          "pid": "62"
+        }
+      ],
+      "name": "Gather Info",
+      "pid": "41",
+      "position": {
+        "x": "1258",
+        "y": "324"
+      },
+      "tags": [
+        "gatherInfo",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Fever]] ",
+      "links": [
+        {
+          "name": "Fever",
+          "link": "Fever",
+          "pid": "52"
+        }
+      ],
+      "name": "Ask Symptoms",
+      "pid": "42",
+      "position": {
+        "x": "951",
+        "y": "431"
+      },
+      "tags": [
+        "askSymptoms",
+        "frame"
+      ]
+    },
+    {
+      "text": "",
+      "name": "I'm Jeff, I was born 73 years ago on a sunny day of summer.",
+      "pid": "43",
+      "position": {
+        "x": "175",
+        "y": "629"
+      },
+      "tags": [
+        "patient",
+        "gatherInfo"
+      ]
+    },
+    {
+      "text": "[[Fever 2]] ",
+      "links": [
+        {
+          "name": "Fever 2",
+          "link": "Fever 2",
+          "pid": "55"
+        }
+      ],
+      "name": "Ask Symptoms 1",
+      "pid": "44",
+      "position": {
+        "x": "1089",
+        "y": "308"
+      },
+      "tags": [
+        "askSymptoms",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Thank you, I appreciate it.]] ",
+      "links": [
+        {
+          "name": "Thank you, I appreciate it.",
+          "link": "Thank you, I appreciate it.",
+          "pid": "46"
+        }
+      ],
+      "name": "Oh that's too bad. I'm so sorry you feel that way",
+      "pid": "45",
+      "position": {
+        "x": "567",
+        "y": "1073"
+      },
+      "tags": [
+        "doctor",
+        "askFever"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Thank you, I appreciate it.",
+      "pid": "46",
+      "position": {
+        "x": "697",
+        "y": "1076"
+      },
+      "tags": [
+        "askFever",
+        "patient"
+      ]
+    },
+    {
+      "text": "[[Ask Symptoms 2]] ",
+      "links": [
+        {
+          "name": "Ask Symptoms 2",
+          "link": "Ask Symptoms 2",
+          "pid": "48"
+        }
+      ],
+      "name": "Greeting Formal 1",
+      "pid": "47",
+      "position": {
+        "x": "1390",
+        "y": "28"
+      },
+      "tags": [
+        "greeting",
+        "formal",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Fever 1]] ",
+      "links": [
+        {
+          "name": "Fever 1",
+          "link": "Fever 1",
+          "pid": "54"
+        }
+      ],
+      "name": "Ask Symptoms 2",
+      "pid": "48",
+      "position": {
+        "x": "1410",
+        "y": "187"
+      },
+      "tags": [
+        "askSymptoms",
+        "frame"
+      ]
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Goodbye Formal 1",
+      "pid": "49",
+      "position": {
+        "x": "1412",
+        "y": "777"
+      },
+      "tags": [
+        "goodbye",
+        "formal",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[You're so nice, thanks!]] ",
+      "links": [
+        {
+          "name": "You're so nice, thanks!",
+          "link": "You're so nice, thanks!",
+          "pid": "51"
+        }
+      ],
+      "name": "Everything is going to be okay. I'm here to help you.",
+      "pid": "50",
+      "position": {
+        "x": "41",
+        "y": "888"
+      },
+      "tags": [
+        "doctor",
+        "askCough"
+      ]
+    },
+    {
+      "text": "",
+      "name": "You're so nice, thanks!",
+      "pid": "51",
+      "position": {
+        "x": "44",
+        "y": "1030"
+      },
+      "tags": [
+        "patient",
+        "askCough"
+      ]
+    },
+    {
+      "text": "[[Diagnosis 1]] ",
+      "links": [
+        {
+          "name": "Diagnosis 1",
+          "link": "Diagnosis 1",
+          "pid": "61"
+        }
+      ],
+      "name": "Fever",
+      "pid": "52",
+      "position": {
+        "x": "955",
+        "y": "560"
+      },
+      "tags": [
+        "frame",
+        "askFever"
+      ]
+    },
+    {
+      "text": "[[Diagnosis 4]] ",
+      "links": [
+        {
+          "name": "Diagnosis 4",
+          "link": "Diagnosis 4",
+          "pid": "70"
+        }
+      ],
+      "name": "Cough",
+      "pid": "53",
+      "position": {
+        "x": "1407",
+        "y": "474"
+      },
+      "tags": [
+        "askCough",
+        "frame",
+        "fever"
+      ]
+    },
+    {
+      "text": "[[Cough]] ",
+      "links": [
+        {
+          "name": "Cough",
+          "link": "Cough",
+          "pid": "53"
+        }
+      ],
+      "name": "Fever 1",
+      "pid": "54",
+      "position": {
+        "x": "1417",
+        "y": "343"
+      },
+      "tags": [
+        "askFever",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Cough 1]]",
+      "links": [
+        {
+          "name": "Cough 1",
+          "link": "Cough 1",
+          "pid": "56"
+        }
+      ],
+      "name": "Fever 2",
+      "pid": "55",
+      "position": {
+        "x": "1085",
+        "y": "445"
+      },
+      "tags": [
+        "askFever",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Diagnosis]] ",
+      "links": [
+        {
+          "name": "Diagnosis",
+          "link": "Diagnosis",
+          "pid": "57"
+        }
+      ],
+      "name": "Cough 1",
+      "pid": "56",
+      "position": {
+        "x": "1101",
+        "y": "600"
+      },
+      "tags": [
+        "askCough",
+        "frame",
+        "fever"
+      ]
+    },
+    {
+      "text": "[[Therapy 3]] ",
+      "links": [
+        {
+          "name": "Therapy 3",
+          "link": "Therapy 3",
+          "pid": "77"
+        }
+      ],
+      "name": "Diagnosis",
+      "pid": "57",
+      "position": {
+        "x": "1108",
+        "y": "715"
+      },
+      "tags": [
+        "frame",
+        "diagnosis"
+      ]
+    },
+    {
+      "text": "[[Oh, okay, should I take something to heal faster?]]\n[[Ah, good! But how can it pass?]] ",
+      "links": [
+        {
+          "name": "Oh, okay, should I take something to heal faster?",
+          "link": "Oh, okay, should I take something to heal faster?",
+          "pid": "59"
+        },
+        {
+          "name": "Ah, good! But how can it pass?",
+          "link": "Ah, good! But how can it pass?",
+          "pid": "78"
+        }
+      ],
+      "name": "I believe you just have a cold.",
+      "pid": "58",
+      "position": {
+        "x": "590",
+        "y": "126"
+      },
+      "tags": [
+        "diagnosis",
+        "doctor"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Oh, okay, should I take something to heal faster?",
+      "pid": "59",
+      "position": {
+        "x": "600",
+        "y": "273"
+      },
+      "tags": [
+        "diagnosis",
+        "patient"
+      ]
+    },
+    {
+      "text": "[[Oh, okay, should I take something to heal faster?]]\n[[Ah, good! But how can it pass?]] ",
+      "links": [
+        {
+          "name": "Oh, okay, should I take something to heal faster?",
+          "link": "Oh, okay, should I take something to heal faster?",
+          "pid": "59"
+        },
+        {
+          "name": "Ah, good! But how can it pass?",
+          "link": "Ah, good! But how can it pass?",
+          "pid": "78"
+        }
+      ],
+      "name": "It's simply a migraine!",
+      "pid": "60",
+      "position": {
+        "x": "729",
+        "y": "123"
+      },
+      "tags": [
+        "diagnosis",
+        "doctor"
+      ]
+    },
+    {
+      "text": "[[Therapy]] ",
+      "links": [
+        {
+          "name": "Therapy",
+          "link": "Therapy",
+          "pid": "67"
+        }
+      ],
+      "name": "Diagnosis 1",
+      "pid": "61",
+      "position": {
+        "x": "954",
+        "y": "694"
+      },
+      "tags": [
+        "frame",
+        "diagnosis"
+      ]
+    },
+    {
+      "text": "[[Goodbye Friendly]] ",
+      "links": [
+        {
+          "name": "Goodbye Friendly",
+          "link": "Goodbye Friendly",
+          "pid": "33"
+        }
+      ],
+      "name": "Diagnosis 2",
+      "pid": "62",
+      "position": {
+        "x": "1249",
+        "y": "461"
+      },
+      "tags": [
+        "frame",
+        "diagnosis"
+      ]
+    },
+    {
+      "text": "[[Gather Info 2]] ",
+      "links": [
+        {
+          "name": "Gather Info 2",
+          "link": "Gather Info 2",
+          "pid": "65"
+        }
+      ],
+      "name": "Greeting Friendly 3",
+      "pid": "63",
+      "position": {
+        "x": "1559",
+        "y": "28"
+      },
+      "tags": [
+        "frame",
+        "greeting",
+        "friendly"
+      ]
+    },
+    {
+      "text": "[[Therapy 2]]  ",
+      "links": [
+        {
+          "name": "Therapy 2",
+          "link": "Therapy 2",
+          "pid": "69"
+        }
+      ],
+      "name": "Diagnosis 3",
+      "pid": "64",
+      "position": {
+        "x": "1570",
+        "y": "573"
+      },
+      "tags": [
+        "diagnosis",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Ask Symptoms 3]] ",
+      "links": [
+        {
+          "name": "Ask Symptoms 3",
+          "link": "Ask Symptoms 3",
+          "pid": "66"
+        }
+      ],
+      "name": "Gather Info 2",
+      "pid": "65",
+      "position": {
+        "x": "1566",
+        "y": "177"
+      },
+      "tags": [
+        "gatherInfo",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Fever 3]] ",
+      "links": [
+        {
+          "name": "Fever 3",
+          "link": "Fever 3",
+          "pid": "85"
+        }
+      ],
+      "name": "Ask Symptoms 3",
+      "pid": "66",
+      "position": {
+        "x": "1572",
+        "y": "330"
+      },
+      "tags": [
+        "frame",
+        "askSymptoms"
+      ]
+    },
+    {
+      "text": "[[Goodbye Friendly 1]] ",
+      "links": [
+        {
+          "name": "Goodbye Friendly 1",
+          "link": "Goodbye Friendly 1",
+          "pid": "37"
+        }
+      ],
+      "name": "Therapy",
+      "pid": "67",
+      "position": {
+        "x": "953",
+        "y": "823"
+      },
+      "tags": [
+        "therapy",
+        "frame"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Goodbye Friendly 2",
+      "pid": "68",
+      "position": {
+        "x": "1585",
+        "y": "840"
+      },
+      "tags": [
+        "goodbye",
+        "friendly",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Goodbye Friendly 2]] ",
+      "links": [
+        {
+          "name": "Goodbye Friendly 2",
+          "link": "Goodbye Friendly 2",
+          "pid": "68"
+        }
+      ],
+      "name": "Therapy 2",
+      "pid": "69",
+      "position": {
+        "x": "1581",
+        "y": "697"
+      },
+      "tags": [
+        "therapy",
+        "frame"
+      ]
+    },
+    {
+      "text": "[[Goodbye Formal 1]] ",
+      "links": [
+        {
+          "name": "Goodbye Formal 1",
+          "link": "Goodbye Formal 1",
+          "pid": "49"
+        }
+      ],
+      "name": "Diagnosis 4",
+      "pid": "70",
+      "position": {
+        "x": "1413",
+        "y": "622"
+      },
+      "tags": [
+        "frame",
+        "diagnosis"
+      ]
+    },
+    {
+      "text": "[[Okay. Thank you, doctor.]] ",
+      "links": [
+        {
+          "name": "Okay. Thank you, doctor.",
+          "link": "Okay. Thank you, doctor.",
+          "pid": "74"
+        }
+      ],
+      "name": "Ibuprofen twice a day, for 3 days.",
+      "pid": "71",
+      "position": {
+        "x": "741",
+        "y": "447"
+      },
+      "tags": [
+        "therapy",
+        "doctor"
+      ]
+    },
+    {
+      "text": "[[Really? Okay, thanks I guess...]]\n[[I have to work, I can't rest. Can't you give me some medication?]] ",
+      "links": [
+        {
+          "name": "Really? Okay, thanks I guess...",
+          "link": "Really? Okay, thanks I guess...",
+          "pid": "73"
+        },
+        {
+          "name": "I have to work, I can't rest. Can't you give me some medication?",
+          "link": "I have to work, I can't rest. Can't you give me some medication?",
+          "pid": "76"
+        }
+      ],
+      "name": "Just rest, that's it.",
+      "pid": "72",
+      "position": {
+        "x": "592",
+        "y": "422"
+      },
+      "tags": [
+        "therapy",
+        "doctor"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Really? Okay, thanks I guess...",
+      "pid": "73",
+      "position": {
+        "x": "510",
+        "y": "557"
+      },
+      "tags": [
+        "patient",
+        "therapy"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Okay. Thank you, doctor.",
+      "pid": "74",
+      "position": {
+        "x": "825",
+        "y": "565"
+      },
+      "tags": [
+        "therapy",
+        "patient"
+      ]
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "No...Just rest. Take a day off or something.",
+      "pid": "75",
+      "position": {
+        "x": "644",
+        "y": "700"
+      },
+      "tags": [
+        "therapy",
+        "doctor"
+      ]
+    },
+    {
+      "text": "[[No...Just rest. Take a day off or something.]] \n[[Here's one aspirin.]] ",
+      "links": [
+        {
+          "name": "No...Just rest. Take a day off or something.",
+          "link": "No...Just rest. Take a day off or something.",
+          "pid": "75"
+        },
+        {
+          "name": "Here's one aspirin.",
+          "link": "Here's one aspirin.",
+          "pid": "79"
+        }
+      ],
+      "name": "I have to work, I can't rest. Can't you give me some medication?",
+      "pid": "76",
+      "position": {
+        "x": "633",
+        "y": "550"
+      },
+      "tags": [
+        "therapy",
+        "patient"
+      ]
+    },
+    {
+      "text": "[[Goodbye Formal]] ",
+      "links": [
+        {
+          "name": "Goodbye Formal",
+          "link": "Goodbye Formal",
+          "pid": "35"
+        }
+      ],
+      "name": "Therapy 3",
+      "pid": "77",
+      "position": {
+        "x": "1114",
+        "y": "831"
+      },
+      "tags": [
+        "therapy",
+        "frame"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Ah, good! But how can it pass?",
+      "pid": "78",
+      "position": {
+        "x": "758",
+        "y": "281"
+      },
+      "tags": [
+        "diagnosis",
+        "patient"
+      ]
+    },
+    {
+      "text": "[[Okay. Thank you, doctor.]] ",
+      "links": [
+        {
+          "name": "Okay. Thank you, doctor.",
+          "link": "Okay. Thank you, doctor.",
+          "pid": "74"
+        }
+      ],
+      "name": "Here's one aspirin.",
+      "pid": "79",
+      "position": {
+        "x": "780",
+        "y": "706"
+      },
+      "tags": [
+        "therapy",
+        "doctor"
+      ]
+    },
+    {
+      "text": "{{timer}}\n30\n{{/timer}}",
+      "props": {
+        "timer": "30"
+      },
+      "name": "Timeout",
+      "pid": "80",
+      "position": {
+        "x": "1268",
+        "y": "1122"
+      },
+      "tags": [
+        "frame",
+        "timeout"
+      ]
+    },
+    {
+      "text": "[[Sorry, something came up! Where were we?]]\n[[Yes, can you repeat what you said before, please?]] ",
+      "links": [
+        {
+          "name": "Sorry, something came up! Where were we?",
+          "link": "Sorry, something came up! Where were we?",
+          "pid": "83"
+        },
+        {
+          "name": "Yes, can you repeat what you said before, please?",
+          "link": "Yes, can you repeat what you said before, please?",
+          "pid": "84"
+        }
+      ],
+      "name": "Are you still there?",
+      "pid": "81",
+      "position": {
+        "x": "69",
+        "y": "1181"
+      },
+      "tags": [
+        "timeout"
+      ]
+    },
+    {
+      "text": "[[Sorry, something came up! Where were we?]]\n[[Yes, can you repeat what you said before, please?]] ",
+      "links": [
+        {
+          "name": "Sorry, something came up! Where were we?",
+          "link": "Sorry, something came up! Where were we?",
+          "pid": "83"
+        },
+        {
+          "name": "Yes, can you repeat what you said before, please?",
+          "link": "Yes, can you repeat what you said before, please?",
+          "pid": "84"
+        }
+      ],
+      "name": "Is everything okay? You are not replying...",
+      "pid": "82",
+      "position": {
+        "x": "192",
+        "y": "1187.5"
+      },
+      "tags": [
+        "timeout"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Sorry, something came up! Where were we?",
+      "pid": "83",
+      "position": {
+        "x": "49",
+        "y": "1334.5"
+      },
+      "tags": [
+        "timeout"
+      ]
+    },
+    {
+      "text": "",
+      "name": "Yes, can you repeat what you said before, please?",
+      "pid": "84",
+      "position": {
+        "x": "185",
+        "y": "1334.5"
+      },
+      "tags": [
+        "timeout"
+      ]
+    },
+    {
+      "text": "[[Diagnosis 3]] ",
+      "links": [
+        {
+          "name": "Diagnosis 3",
+          "link": "Diagnosis 3",
+          "pid": "64"
+        }
+      ],
+      "name": "Fever 3",
+      "pid": "85",
+      "position": {
+        "x": "1570",
+        "y": "446.5"
+      },
+      "tags": [
+        "askFever",
+        "frame"
+      ]
+    }
+  ],
+  "name": "SAIData",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.13",
+  "ifid": "906FDD39-5747-4547-93A9-0A79D001B6A0"
+}
